@@ -1,12 +1,14 @@
 import React from "react";
-import styled from "styled-components";
-import HeaderContainer from "../Header/styles";
+import { HeaderContainer, HeaderLeft } from "../Header/styles";
 
 function Header() {
 	return (
 		<div>
 			<HeaderContainer>
-				<h1>Welcome back, Anthony</h1>
+				<HeaderLeft>
+					{" "}
+					<h1>Welcome back, Anthony</h1>
+				</HeaderLeft>
 			</HeaderContainer>
 		</div>
 	);

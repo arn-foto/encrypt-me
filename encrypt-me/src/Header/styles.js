@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
 const HeaderContainer = styled.div`
+	display: flex;
 	background-color: lightgrey;
 `;
 
-export default HeaderContainer;
+const HeaderLeft = styled.div`
+	background-color: lightblue;
+`;
+
+export { HeaderContainer, HeaderLeft };
