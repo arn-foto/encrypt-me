@@ -1,5 +1,9 @@
-# encrypt-me
+### Check img folder for some idea on whats going to happen here. Everything is subject to change.
 
-# The start of a long road
+Tech so far:
 
-....
+- JavaScript
+- React
+- React-Router
+- Redux
+- Styled-components
