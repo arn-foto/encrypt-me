@@ -14,11 +14,12 @@ const LinkBody = styled.div`
 		font-size: 2em;
 		color: black;
 		text-decoration: none;
-		border: 2px solid black;
+		border: 2px solid whitesmoke;
 		border-radius: 10px;
 		:hover {
 			opacity: 0.9;
 			background-color: whitesmoke;
+			cursor: pointer;
 		}
 	}
 `;
