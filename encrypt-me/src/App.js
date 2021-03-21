@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import "./Css/App.css";
-import styled from "styled-components";
+import { AppBody } from "../src/Body/styles";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -9,7 +9,6 @@ function App() {
 		<div className="App">
 			<Router>
 				<div>
-					{" "}
 					<Header />
 					<AppBody>
 						<h1>encrypt me.</h1>
@@ -21,7 +20,3 @@ function App() {
 }
 
 export default App;
-
-const AppBody = styled.div`
-	background-color: lightgrey;
-`;
