@@ -1,9 +1,12 @@
 import React from "react";
+import { JournalContainer } from "./styles";
 
 function JournalWidget() {
 	return (
 		<div>
-			<h1>Journal Widget.</h1>
+			<JournalContainer>
+				<h1>Journal Widget.</h1>
+			</JournalContainer>
 		</div>
 	);
 }
