@@ -3,19 +3,12 @@ import Header from "./Header";
 import Body from "./Body";
 import "./Css/App.css";
 import { AppBody } from "../src/Body/styles";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
 	return (
 		<div className="App">
-			<Router>
-				<div>
-					<Header />
-					<AppBody>
-						<Body />
-					</AppBody>
-				</div>
-			</Router>
+			<Header />
+			<Body />
 		</div>
 	);
 }
