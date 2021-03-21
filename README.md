@@ -7,6 +7,7 @@ Tech so far:
 - React-Router
 - Redux
 - Styled-components
+- Ant-designs
 
 ### Everything is subject to change as the application progresses.
 
