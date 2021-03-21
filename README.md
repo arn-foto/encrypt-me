@@ -1,4 +1,4 @@
-### Check img folder for some idea on whats going to happen here. Everything is subject to change.
+### Encrypt me.
 
 Tech so far:
 
@@ -7,5 +7,7 @@ Tech so far:
 - React-Router
 - Redux
 - Styled-components
+
+### Everything is subject to change as the application progresses.
 
 ![alt text](https://github.com/arn-foto/encrypt-me/blob/main/encrypt-me/src/img/plan-01.png?raw=true)
