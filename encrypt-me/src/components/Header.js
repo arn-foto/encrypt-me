@@ -4,15 +4,15 @@ import styled from "styled-components";
 function Header() {
 	return (
 		<div>
-			<HeaderBody>
+			<HeaderContainer>
 				<h1>Header.</h1>
-			</HeaderBody>
+			</HeaderContainer>
 		</div>
 	);
 }
 
 export default Header;
 
-const HeaderBody = styled.div`
-	background-color: red;
+const HeaderContainer = styled.div`
+	background-color: grey;
 `;
