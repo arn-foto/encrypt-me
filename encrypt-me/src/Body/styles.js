@@ -12,8 +12,14 @@ const LinkBody = styled.div`
 
 	> a {
 		font-size: 2em;
-		color: red;
+		color: black;
 		text-decoration: none;
+		border: 2px solid black;
+		border-radius: 15px;
+		:hover {
+			opacity: 0.9;
+			background-color: whitesmoke;
+		}
 	}
 `;
 
