@@ -12,7 +12,6 @@ function App() {
 				<div>
 					<Header />
 					<AppBody>
-						<h1>encrypt me.</h1>
 						<Body />
 					</AppBody>
 				</div>
