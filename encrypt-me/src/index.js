@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./Css/index.css";
 import App from "./App";
-import store from "./app/store";
+import store from "./Redux-store/store";
 import { Provider } from "react-redux";
-import * as serviceWorker from "./serviceWorker";
+import * as serviceWorker from "./tests/serviceWorker";
 
 ReactDOM.render(
 	<React.StrictMode>
