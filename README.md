@@ -7,3 +7,5 @@ Tech so far:
 - React-Router
 - Redux
 - Styled-components
+
+![alt text](https://github.com/arn-foto/encrypt-me/blob/main/encrypt-me/src/img/plan-01.png?raw=true)
