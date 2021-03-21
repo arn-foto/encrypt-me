@@ -6,7 +6,6 @@ function Header() {
 		<div>
 			<HeaderContainer>
 				<HeaderLeft>
-					{" "}
 					<h1>Welcome back, Anthony</h1>
 				</HeaderLeft>
 			</HeaderContainer>
