@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import HeaderContainer from "../Header/styles";
 
 function Header() {
 	return (
@@ -12,7 +13,3 @@ function Header() {
 }
 
 export default Header;
-
-const HeaderContainer = styled.div`
-	background-color: grey;
-`;
