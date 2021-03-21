@@ -2,7 +2,7 @@ import React from "react";
 import FinanceWidget from "../Components/FinanceWidget";
 import JournalWidget from "../Components/JournalWidget";
 import NotepadWidget from "../Components/NotepadWidget";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { AppBody, LinkBody } from "./styles";
 
 function Body() {

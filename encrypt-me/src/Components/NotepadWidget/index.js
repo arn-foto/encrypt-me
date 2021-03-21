@@ -1,9 +1,12 @@
 import React from "react";
+import { NotepadContainer } from "./styles";
 
 function NotepadWidget() {
 	return (
 		<div>
-			<h1>Notepad Widget.</h1>
+			<NotepadContainer>
+				<h1>Notepad Widget.</h1>
+			</NotepadContainer>
 		</div>
 	);
 }
