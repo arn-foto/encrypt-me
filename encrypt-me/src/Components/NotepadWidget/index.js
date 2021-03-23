@@ -8,6 +8,7 @@ function NotepadWidget() {
 				<h1>Notepad.</h1>
 				<input placeholder="Title" />
 				<textarea placeholder="Note" />
+				<button>Create note</button>
 			</NotepadContainer>
 		</div>
 	);
