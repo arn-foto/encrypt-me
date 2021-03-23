@@ -1,14 +1,15 @@
 import React from "react";
+import AddNote from "../NotepadWidget/AddNote";
+import NoteList from "../NotepadWidget/NoteList";
 import { NotepadContainer } from "./styles";
 
 function NotepadWidget() {
 	return (
 		<div>
 			<NotepadContainer>
-				<h1>Notepad.</h1>
-				<input placeholder="Title" />
-				<textarea placeholder="Note" />
-				<button>Create note</button>
+				<AddNote />
+
+				<NoteList />
 			</NotepadContainer>
 		</div>
 	);

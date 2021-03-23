@@ -16,11 +16,12 @@ const AddNote = () => {
 	};
 
 	return (
-		<AddNoteDiv>
+		<div>
+			{" "}
 			<InputTitle value={title} onChange={(e) => setTitle(e.target.value)} />
 			<BodyTextArea value={body} onChange={(e) => setBody(e.target.value)} />
 			<Button onClick={addNote}>Add Note</Button>
-		</AddNoteDiv>
+		</div>
 	);
 };
 
