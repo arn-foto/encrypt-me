@@ -1,9 +1,9 @@
 import React from "react";
+import { AppBody, LinkBody } from "./styles";
 import FinanceWidget from "../Components/FinanceWidget";
 import JournalWidget from "../Components/JournalWidget";
 import NotepadWidget from "../Components/NotepadWidget";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import { AppBody, LinkBody } from "./styles";
 
 function Body() {
 	return (
