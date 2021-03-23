@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const NotepadContainer = styled.div`
-	background-color: lightblue;
+	background-color: whitesmoke;
 `;
 
 export { NotepadContainer };
