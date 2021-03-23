@@ -6,8 +6,6 @@ const HeaderContainer = styled.div`
 	background-color: lightgrey;
 `;
 
-const HeaderLeft = styled.div`
-	background-color: lightblue;
-`;
+const HeaderLeft = styled.div``;
 
 export { HeaderContainer, HeaderLeft };
