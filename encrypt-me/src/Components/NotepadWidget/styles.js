@@ -5,8 +5,9 @@ const NotepadContainer = styled.div`
 	flex-direction: row;
 	background-color: whitesmoke;
 	background: #afe0cc;
-	height: 100%;
+
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	padding: 0.5em;
 `;
 
 // styles for AddNote.js
@@ -36,7 +37,7 @@ const InputTitle = styled.input`
 const BodyTextArea = styled.textarea`
 	width: 400px;
 	height: 50vh;
-	padding: 0.5em;
+
 	border: none;
 	background: lightgoldenrodyellow;
 	font-weight: bolder;
@@ -51,6 +52,8 @@ const Button = styled.div`
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 3px;
+	border: 1px solid black;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 
 	:hover {
 		opacity: 0.9;
@@ -63,8 +66,7 @@ const Button = styled.div`
 const ListsDiv = styled.div`
 	width: 50vh;
 	height: 65vh;
-	margin: 5px;
-	padding: 5px;
+	padding: 0.5em;
 `;
 
 const ListItemDiv = styled.div`
@@ -73,6 +75,7 @@ const ListItemDiv = styled.div`
 	position: relative;
 	width: 100%;
 	height: 20%;
+	padding: 0.5em;
 	font-size: 20px;
 	border-bottom: 1px solid black;
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
@@ -117,9 +120,13 @@ const ListItemDeleteButton = styled.button`
 `;
 
 const CalendarStyle = styled.div`
+	display: flex;
+
 	width: 300px;
 	background-color: #afe0cc;
 	border-radius: 2px;
+	opacity: 0.9;
+	padding: 10px;
 `;
 
 export {

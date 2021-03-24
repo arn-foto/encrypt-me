@@ -2,11 +2,13 @@ import styled from "styled-components";
 
 const AppBody = styled.div`
 	display: flex;
+
 	justify-content: center;
 `;
 
 const LinkBody = styled.div`
 	display: flex;
+	padding: 10px;
 	justify-content: space-evenly;
 
 	> a {
