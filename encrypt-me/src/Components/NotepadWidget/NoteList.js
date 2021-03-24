@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import firebase from "../../firebase";
 import {
+	ListsDiv,
 	ListItemDiv,
 	ListTitleDiv,
 	ListItemDetailDiv,
@@ -35,7 +36,7 @@ const NoteList = () => {
 	};
 
 	return (
-		<div>
+		<ListsDiv>
 			{lists.map((list) => {
 				return (
 					<ListItemDiv>
@@ -45,7 +46,7 @@ const NoteList = () => {
 					</ListItemDiv>
 				);
 			})}
-		</div>
+		</ListsDiv>
 	);
 };
 

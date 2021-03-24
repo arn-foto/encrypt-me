@@ -17,19 +17,24 @@ const AddNoteDiv = styled.div`
 const InputTitle = styled.input`
 	padding: 0.5em;
 	border: none;
-	background: lightyellow;
+	background: lightgoldenrodyellow;
 	margin-bottom: 10px;
 	border-radius: 3px;
+	width: 400px;
+	font-weight: bolder;
+	font-size: 22px;
 `;
 
 const BodyTextArea = styled.textarea`
-	width: 500px;
+	width: 400px;
 	height: 300px;
-	padding: 1em;
+	padding: 0.5em;
 	border: none;
-	background: lightyellow;
+	background: lightgoldenrodyellow;
 	margin-bottom: 10px;
 	border-radius: 3px;
+	font-weight: bolder;
+	font-size: 20px;
 `;
 
 const Button = styled.div`
@@ -43,17 +48,18 @@ const Button = styled.div`
 
 // Styles for NoteList.js
 const ListsDiv = styled.div`
-	width: 40%;
-	height: 100%;
-	background: #dedede;
-	margin: 30px auto;
-	padding: 20px;
+	width: 50vh;
+	height: 55vh;
+	background: #afe0cc;
+	margin: 5px;
+	padding: 5px;
 `;
 
 const ListItemDiv = styled.div`
-	background: #b2c4db;
+	background: lightgoldenrodyellow;
 	border-radius: 5px;
 	position: relative;
+	width: 100%;
 `;
 
 const ListTitleDiv = styled.div`
