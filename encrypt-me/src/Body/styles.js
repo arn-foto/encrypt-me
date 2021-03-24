@@ -15,6 +15,7 @@ const LinkBody = styled.div`
 		text-decoration: none;
 		border: 2px solid whitesmoke;
 		border-radius: 10px;
+		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 		:hover {
 			opacity: 0.9;
 			background-color: whitesmoke;
