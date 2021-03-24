@@ -4,6 +4,10 @@ const NotepadContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	background-color: whitesmoke;
+
+	background: #afe0cc;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 `;
 
 // styles for AddNote.js
@@ -47,7 +51,6 @@ const BodyTextArea = styled.textarea`
 `;
 
 const Button = styled.div`
-	background: #afe0cc;
 	color: white;
 	font-size: 1em;
 	padding: 10px;
@@ -65,7 +68,6 @@ const Button = styled.div`
 const ListsDiv = styled.div`
 	width: 50vh;
 	height: 65vh;
-	background: #afe0cc;
 	margin: 5px;
 	padding: 5px;
 `;
