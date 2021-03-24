@@ -5,9 +5,10 @@ const NotepadContainer = styled.div`
 	flex-direction: row;
 	background-color: whitesmoke;
 	background: #afe0cc;
-
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
-	padding: 0.5em;
+	padding: 1em;
+	width: 145vh;
+	height: 150vh;
 `;
 
 // styles for AddNote.js
@@ -27,7 +28,6 @@ const InputTitle = styled.input`
 	width: 400px;
 	font-weight: bolder;
 	font-size: 22px;
-	font-size: 20px;
 	border-bottom: 1px solid black;
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 	-ms-overflow-style: none;
@@ -37,7 +37,6 @@ const InputTitle = styled.input`
 const BodyTextArea = styled.textarea`
 	width: 400px;
 	height: 50vh;
-
 	border: none;
 	background: lightgoldenrodyellow;
 	font-weight: bolder;
@@ -47,7 +46,6 @@ const BodyTextArea = styled.textarea`
 `;
 
 const Button = styled.div`
-	color: white;
 	font-size: 1em;
 	padding: 10px;
 	cursor: pointer;
@@ -58,7 +56,6 @@ const Button = styled.div`
 	:hover {
 		opacity: 0.9;
 		background-color: #b8e3c9;
-		cursor: pointer;
 	}
 `;
 
