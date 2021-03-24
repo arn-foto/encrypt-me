@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from "react";
 import firebase from "firebase";
+import {
+	ListItemDiv,
+	ListTitleDiv,
+	ListItemDetailDiv,
+	ListItemDeleteButton,
+} from "./styles";
 
 function useLists() {
 	const [lists, setLists] = useState([]);
@@ -32,11 +38,11 @@ const NoteList = () => {
 		<div>
 			{lists.map((list) => {
 				return (
-					<div>
-						<div>{list.title}</div>
-						<div>{list.body}</div>
-						<button onClick={() => handleOnDelete(list.id)} />
-					</div>
+					<ListItemDiv>
+						<ListTitleDiv>{list.title}</ListTitleDiv>
+						<ListItemDetailDiv>{list.body}</ListItemDetailDiv>
+						<ListItemDeleteButton onClick={() => handleOnDelete(list.id)} />
+					</ListItemDiv>
 				);
 			})}
 		</div>

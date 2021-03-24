@@ -5,12 +5,15 @@ import { NotepadContainer } from "./styles";
 
 function NotepadWidget() {
 	return (
-		<NotepadContainer>
+		<div>
 			{" "}
-			<h2>Notepad</h2>
-			<AddNote />
+			<NotepadContainer>
+				{" "}
+				<h2>Notepad</h2>
+				<AddNote />
+			</NotepadContainer>
 			<NoteList />
-		</NotepadContainer>
+		</div>
 	);
 }
 export default NotepadWidget;

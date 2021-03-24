@@ -38,5 +38,57 @@ const Button = styled.div`
 	cursor: pointer;
 	border-radius: 3px;
 `;
+// Styles for Note's output
+const ListsDiv = styled.div`
+	width: 40%;
+	height: 100%;
+	background: #dedede;
+	margin: 30px auto;
+	padding: 20px;
+`;
 
-export { NotepadContainer, Button, BodyTextArea, InputTitle, AddNoteDiv };
+const ListItemDiv = styled.div`
+	background: #b2c4db;
+	border-radius: 5px;
+	position: relative;
+`;
+
+const ListTitleDiv = styled.div`
+	font-size: 24px;
+	color: black;
+	font-weight: bold;
+	margin: 3px;
+`;
+
+const ListItemDetailDiv = styled.p`
+	font-size: 18px;
+	color: black;
+	margin: 3px;
+	max-height: 80px;
+	overflow: auto;
+`;
+
+const ListItemDeleteButton = styled.button`
+	border-radius: 5px;
+	background: #c26c61;
+	color: white;
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: 5px;
+	right: 10px;
+	outline: none;
+`;
+
+export {
+	NotepadContainer,
+	Button,
+	BodyTextArea,
+	ListsDiv,
+	InputTitle,
+	ListTitleDiv,
+	ListItemDiv,
+	AddNoteDiv,
+	ListItemDeleteButton,
+	ListItemDetailDiv,
+};
