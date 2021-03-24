@@ -23,11 +23,16 @@ const InputTitle = styled.input`
 	width: 400px;
 	font-weight: bolder;
 	font-size: 22px;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 `;
 
 const BodyTextArea = styled.textarea`
 	width: 400px;
-	height: 300px;
+	height: 50vh;
 	padding: 0.5em;
 	border: none;
 	background: lightgoldenrodyellow;
@@ -35,6 +40,10 @@ const BodyTextArea = styled.textarea`
 	border-radius: 3px;
 	font-weight: bolder;
 	font-size: 20px;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 `;
 
 const Button = styled.div`
@@ -55,7 +64,7 @@ const Button = styled.div`
 // Styles for NoteList.js
 const ListsDiv = styled.div`
 	width: 50vh;
-	height: 55vh;
+	height: 65vh;
 	background: #afe0cc;
 	margin: 5px;
 	padding: 5px;
@@ -67,6 +76,11 @@ const ListItemDiv = styled.div`
 	position: relative;
 	width: 100%;
 	height: 20%;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 	:hover {
 		opacity: 0.9;
 		background-color: lightyellow;
