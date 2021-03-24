@@ -7,12 +7,12 @@ function NotepadWidget() {
 	return (
 		<div>
 			{" "}
+			<h2>Notepad</h2>
 			<NotepadContainer>
 				{" "}
-				<h2>Notepad</h2>
 				<AddNote />
+				<NoteList />
 			</NotepadContainer>
-			<NoteList />
 		</div>
 	);
 }

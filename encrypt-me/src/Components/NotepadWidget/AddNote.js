@@ -1,6 +1,6 @@
 import firebase from "firebase";
 import React, { useState } from "react";
-import { Button, BodyTextArea, InputTitle, NotepadContainer } from "./styles";
+import { Button, BodyTextArea, InputTitle, AddNoteDiv } from "./styles";
 
 const AddNote = () => {
 	const [title, setTitle] = useState("");
@@ -18,12 +18,12 @@ const AddNote = () => {
 
 	return (
 		<div>
-			<NotepadContainer>
+			<AddNoteDiv>
 				{" "}
 				<InputTitle value={title} onChange={(e) => setTitle(e.target.value)} />
 				<BodyTextArea value={body} onChange={(e) => setBody(e.target.value)} />
 				<Button onClick={addNote}>Add Note</Button>
-			</NotepadContainer>
+			</AddNoteDiv>
 		</div>
 	);
 };

@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 const NotepadContainer = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: whitesmoke;
 `;
 
+// styles for AddNote.js
 const AddNoteDiv = styled.div`
+	display: flex;
+	flex-direction: column;
 	width: 100%;
-	margin: 30px auto;
 	padding: 5px;
 `;
 
@@ -38,7 +40,8 @@ const Button = styled.div`
 	cursor: pointer;
 	border-radius: 3px;
 `;
-// Styles for Note's output
+
+// Styles for NoteList.js
 const ListsDiv = styled.div`
 	width: 40%;
 	height: 100%;
