@@ -104,7 +104,7 @@ const ListItemDetailDiv = styled.p`
 
 const ListItemDeleteButton = styled.button`
 	border-radius: 5px;
-	background: #c26c61;
+	background: #b8e3c9;
 	color: white;
 	position: absolute;
 	width: 15px;
@@ -121,7 +121,6 @@ const ListItemDeleteButton = styled.button`
 
 const CalendarStyle = styled.div`
 	display: flex;
-
 	width: 300px;
 	background-color: #afe0cc;
 	border-radius: 2px;
