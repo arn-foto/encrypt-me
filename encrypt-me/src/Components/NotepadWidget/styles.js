@@ -40,14 +40,10 @@ const BodyTextArea = styled.textarea`
 	padding: 0.5em;
 	border: none;
 	background: lightgoldenrodyellow;
-	margin-bottom: 10px;
-	border-radius: 3px;
 	font-weight: bolder;
 	font-size: 20px;
 	border-bottom: 1px solid black;
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
-	-ms-overflow-style: none;
-	scrollbar-width: none;
 `;
 
 const Button = styled.div`
@@ -91,7 +87,7 @@ const ListItemDiv = styled.div`
 `;
 
 const ListTitleDiv = styled.div`
-	font-size: 24px;
+	font-size: 20px;
 	color: black;
 	font-weight: bold;
 	margin: 3px;
@@ -115,6 +111,11 @@ const ListItemDeleteButton = styled.button`
 	top: 5px;
 	right: 10px;
 	outline: none;
+	:hover {
+		opacity: 0.9;
+		background-color: black;
+		cursor: pointer;
+	}
 `;
 
 export {
