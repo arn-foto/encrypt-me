@@ -10,9 +10,12 @@ function NotepadWidget() {
 		body: "body works",
 	});
 	return (
-		<div className="App">
+		<NotepadContainer>
+			{" "}
 			<h2>Notepad</h2>
-		</div>
+			<AddNote />
+			<NoteList />
+		</NotepadContainer>
 	);
 }
 export default NotepadWidget;
