@@ -3,7 +3,6 @@ import styled from "styled-components";
 const AppBody = styled.div`
 	display: flex;
 	justify-content: center;
-	background-color: whitesmoke;
 `;
 
 const LinkBody = styled.div`
