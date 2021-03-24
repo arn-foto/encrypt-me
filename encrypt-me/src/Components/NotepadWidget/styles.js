@@ -38,12 +38,18 @@ const BodyTextArea = styled.textarea`
 `;
 
 const Button = styled.div`
-	background: lightblue;
+	background: #afe0cc;
 	color: white;
 	font-size: 1em;
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 3px;
+
+	:hover {
+		opacity: 0.9;
+		background-color: #b8e3c9;
+		cursor: pointer;
+	}
 `;
 
 // Styles for NoteList.js
@@ -60,6 +66,12 @@ const ListItemDiv = styled.div`
 	border-radius: 5px;
 	position: relative;
 	width: 100%;
+	height: 20%;
+	:hover {
+		opacity: 0.9;
+		background-color: lightyellow;
+		cursor: pointer;
+	}
 `;
 
 const ListTitleDiv = styled.div`
