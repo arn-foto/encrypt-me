@@ -1,4 +1,4 @@
-import firebase from "firebase";
+import firebase from "../../firebase";
 import React, { useState } from "react";
 import { Button, BodyTextArea, InputTitle, AddNoteDiv } from "./styles";
 
