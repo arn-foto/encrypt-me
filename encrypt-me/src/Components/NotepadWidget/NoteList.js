@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import firebase from "./firebase";
+import firebase from "firebase";
 
 function useLists() {
 	const [lists, setLists] = useState([]);
