@@ -4,10 +4,8 @@ const NotepadContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	background-color: whitesmoke;
-
 	background: #afe0cc;
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+	height: 100%;
 `;
 
 // styles for AddNote.js
@@ -77,8 +75,7 @@ const ListItemDiv = styled.div`
 	font-size: 20px;
 	border-bottom: 1px solid black;
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
-	-ms-overflow-style: none;
-	scrollbar-width: none;
+
 	:hover {
 		opacity: 0.9;
 		background-color: lightyellow;
@@ -118,6 +115,12 @@ const ListItemDeleteButton = styled.button`
 	}
 `;
 
+const CalendarStyle = styled.div`
+	width: 300px;
+
+	border-radius: 2px;
+`;
+
 export {
 	NotepadContainer,
 	Button,
@@ -129,4 +132,5 @@ export {
 	AddNoteDiv,
 	ListItemDeleteButton,
 	ListItemDetailDiv,
+	CalendarStyle,
 };
