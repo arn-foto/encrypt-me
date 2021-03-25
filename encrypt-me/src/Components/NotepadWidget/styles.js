@@ -61,6 +61,8 @@ const Button = styled.div`
 
 // Styles for NoteList.js
 const ListsDiv = styled.div`
+	display: flex;
+	flex-direction: column;
 	width: 50vh;
 	height: 65vh;
 	padding: 0.5em;
