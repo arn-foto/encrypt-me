@@ -20,8 +20,16 @@ const AddNote = () => {
 		<div>
 			<AddNoteDiv>
 				{" "}
-				<InputTitle value={title} onChange={(e) => setTitle(e.target.value)} />
-				<BodyTextArea value={body} onChange={(e) => setBody(e.target.value)} />
+				<InputTitle
+					placeholder="+  +  +"
+					value={title}
+					onChange={(e) => setTitle(e.target.value)}
+				/>
+				<BodyTextArea
+					placeholder="+ + +"
+					value={body}
+					onChange={(e) => setBody(e.target.value)}
+				/>
 				<Button onClick={addNote}>Add Note</Button>
 			</AddNoteDiv>
 		</div>

@@ -8,7 +8,7 @@ const NotepadContainer = styled.div`
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 	padding: 1em;
 	padding: 20px;
-	margin: 20px;
+	margin: 21px;
 `;
 
 // styles for AddNote.js
@@ -16,7 +16,7 @@ const AddNoteDiv = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 100%;
-	padding: 5px;
+	padding: 6px;
 `;
 
 const InputTitle = styled.input`
@@ -35,6 +35,8 @@ const InputTitle = styled.input`
 `;
 
 const BodyTextArea = styled.textarea`
+	display: flex;
+	flex-direction: column;
 	width: 400px;
 	height: 50vh;
 	border: none;
