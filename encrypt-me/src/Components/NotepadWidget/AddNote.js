@@ -21,12 +21,12 @@ const AddNote = () => {
 			<AddNoteDiv>
 				{" "}
 				<InputTitle
-					placeholder="+  +  +"
+					placeholder="+ Title  +"
 					value={title}
 					onChange={(e) => setTitle(e.target.value)}
 				/>
 				<BodyTextArea
-					placeholder="+ + +"
+					placeholder="+  Note  +"
 					value={body}
 					onChange={(e) => setBody(e.target.value)}
 				/>
