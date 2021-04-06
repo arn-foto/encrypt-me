@@ -5,7 +5,7 @@ function FinanceWidget() {
 	return (
 		<div>
 			<FinanceContainer>
-				<h1>Finance Widget.</h1>
+				<h1>Finance.</h1>
 			</FinanceContainer>
 		</div>
 	);
