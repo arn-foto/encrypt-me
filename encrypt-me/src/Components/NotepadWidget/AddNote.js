@@ -20,7 +20,11 @@ const AddNote = () => {
 		<div>
 			<AddNoteDiv>
 				{" "}
-				<InputTitle value={title} onChange={(e) => setTitle(e.target.value)} />
+				<InputTitle
+					placeholder="+ Title  +"
+					value={title}
+					onChange={(e) => setTitle(e.target.value)}
+				/>
 				<BodyTextArea
 					placeholder="+  Note  +"
 					value={body}
