@@ -12,10 +12,20 @@ const FinancePanels = styled.div`
 	grid-gap: 10px;
 	grid-template-columns: 225px auto auto;
 	grid-template-rows: auto auto;
+	border: 1px solid black;
 `;
 
 const FinancePanelInfo = styled.div`
 	grid-row: span 2;
 `;
 
-export { FinanceContainer, FinancePanels, FinancePanelInfo };
+const FinancePanelPoistion = styled.div`
+	grid-column: span 2;
+`;
+
+export {
+	FinanceContainer,
+	FinancePanels,
+	FinancePanelInfo,
+	FinancePanelPoistion,
+};
