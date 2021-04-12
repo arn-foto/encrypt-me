@@ -1,5 +1,5 @@
 import React from "react";
-import { FinanceContainer, FinancePanels } from "./styles";
+import { FinanceContainer, FinancePanels, FinancePanelInfo } from "./styles";
 
 function FinanceWidget() {
 	return (
@@ -8,6 +8,9 @@ function FinanceWidget() {
 				<h1>Finance.</h1>
 				<FinancePanels>
 					<h1>panels</h1>
+					<FinancePanelInfo>
+						<h1>panel info</h1>
+					</FinancePanelInfo>
 				</FinancePanels>
 			</FinanceContainer>
 		</div>

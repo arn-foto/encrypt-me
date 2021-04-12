@@ -14,4 +14,8 @@ const FinancePanels = styled.div`
 	grid-template-rows: auto auto;
 `;
 
-export { FinanceContainer, FinancePanels };
+const FinancePanelInfo = styled.div`
+	grid-row: span 2;
+`;
+
+export { FinanceContainer, FinancePanels, FinancePanelInfo };
