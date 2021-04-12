@@ -1,11 +1,14 @@
 import React from "react";
-import { FinanceContainer } from "./styles";
+import { FinanceContainer, FinancePanels } from "./styles";
 
 function FinanceWidget() {
 	return (
 		<div>
 			<FinanceContainer>
 				<h1>Finance.</h1>
+				<FinancePanels>
+					<h1>panels</h1>
+				</FinancePanels>
 			</FinanceContainer>
 		</div>
 	);

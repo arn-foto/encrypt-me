@@ -7,4 +7,11 @@ const FinanceContainer = styled.div`
 	border: 1px solid black;
 `;
 
-export { FinanceContainer };
+const FinancePanels = styled.div`
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 225px auto auto;
+	grid-template-rows: auto auto;
+`;
+
+export { FinanceContainer, FinancePanels };
