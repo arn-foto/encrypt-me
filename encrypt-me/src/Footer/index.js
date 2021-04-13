@@ -4,7 +4,7 @@ import { FooterContainer } from "./styles";
 const Footer = () => {
 	return (
 		<FooterContainer>
-			<h1>footer</h1>
+			<h1>^_^</h1>
 		</FooterContainer>
 	);
 };
