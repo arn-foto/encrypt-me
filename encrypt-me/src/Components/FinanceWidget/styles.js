@@ -12,15 +12,4 @@ const FinanceContainer = styled.div`
 	height: 100vh;
 `;
 
-const FinancePanels = styled.div``;
-
-const FinancePanelInfo = styled.div``;
-
-const FinancePanelPoistion = styled.div``;
-
-export {
-	FinanceContainer,
-	FinancePanels,
-	FinancePanelInfo,
-	FinancePanelPoistion,
-};
+export { FinanceContainer };
