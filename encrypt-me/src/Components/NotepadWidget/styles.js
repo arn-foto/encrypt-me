@@ -8,6 +8,7 @@ const NotepadContainer = styled.div`
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 	padding: 20px;
 	margin: 21px;
+	width: 150vh;
 `;
 
 // styles for AddNote.js
@@ -74,7 +75,7 @@ const ListItemDiv = styled.div`
 	border-radius: 5px;
 	position: relative;
 	width: 100%;
-	height: 20%;
+	height: 80%;
 	padding: 0.5em;
 	font-size: 20px;
 	border-bottom: 1px solid black;
