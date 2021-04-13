@@ -1,7 +1,11 @@
 import React from "react";
 
 const RemainingPanel = () => {
-	return <div></div>;
+	return (
+		<div>
+			<span>Remaining budget: $1000</span>
+		</div>
+	);
 };
 
 export default RemainingPanel;

@@ -1,20 +1,19 @@
 import React from "react";
-import AllocationPanel from "../FinanceWidget/Panels/AllocationPanel";
-import InfoPanel from "../FinanceWidget/Panels/InfoPanel";
-import PerformancePanel from "../FinanceWidget/Panels/PerformancePanel";
-import PositionsPanel from "./Panels/PositionsPanel";
-import {
-	FinanceContainer,
-	FinancePanels,
-	FinancePanelInfo,
-	FinancePanelPoistion,
-} from "./styles";
+import BudgetPanel from "./Panels/BudgetPanel";
+import ExpenseTotalPanel from "./Panels/ExpenseTotalPanel";
+import RemainingPanel from "./Panels/RemainingPanel";
+
+import { FinanceContainer } from "./styles";
 
 function FinanceWidget() {
 	return (
 		<div>
 			<h2>Finances.</h2>
-			<FinanceContainer></FinanceContainer>
+			<FinanceContainer>
+				<BudgetPanel />
+				<ExpenseTotalPanel />
+				<RemainingPanel />
+			</FinanceContainer>
 		</div>
 	);
 }

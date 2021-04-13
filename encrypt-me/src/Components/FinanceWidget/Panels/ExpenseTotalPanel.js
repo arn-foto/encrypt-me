@@ -1,7 +1,11 @@
 import React from "react";
 
-function ExpenseTotalPanel() {
-	return <div></div>;
-}
+const ExpenseTotalPanel = () => {
+	return (
+		<div>
+			<span>Spent so far: $1000</span>
+		</div>
+	);
+};
 
 export default ExpenseTotalPanel;
