@@ -12,7 +12,6 @@ const FinancePanels = styled.div`
 	grid-gap: 10px;
 	grid-template-columns: 225px auto auto;
 	grid-template-rows: auto auto;
-	border: 1px solid black;
 `;
 
 const FinancePanelInfo = styled.div`

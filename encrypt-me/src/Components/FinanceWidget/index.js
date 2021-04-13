@@ -18,7 +18,9 @@ function FinanceWidget() {
 					<FinancePanelInfo>
 						<InfoPanel />
 					</FinancePanelInfo>
+
 					<FinancePanelPoistion>
+						{" "}
 						<PerformancePanel />
 						<AllocationPanel />
 						<PositionsPanel />

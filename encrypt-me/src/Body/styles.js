@@ -8,8 +8,9 @@ const AppBody = styled.div`
 
 const LinkBody = styled.div`
 	display: flex;
-	padding: 10px;
+	flex-direction: column;
 	justify-content: space-evenly;
+	position: absolute;
 
 	> a {
 		font-size: 2em;
