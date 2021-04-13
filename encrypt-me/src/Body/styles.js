@@ -2,14 +2,14 @@ import styled from "styled-components";
 
 const AppBody = styled.div`
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: column;
 `;
 
 const LinkBody = styled.div`
 	display: flex;
 	flex-direction: column;
-	position: absolute;
-	margin: 10px;
+	justify-content: space-evenly;
+	margin: 20px;
 
 	> a {
 		font-size: 2em;
@@ -18,7 +18,6 @@ const LinkBody = styled.div`
 		border: 2px solid whitesmoke;
 		border-radius: 10px;
 		padding: 20px;
-		margin: 50px;
 		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 		:hover {
 			opacity: 0.9;

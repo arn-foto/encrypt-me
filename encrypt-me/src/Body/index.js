@@ -7,15 +7,13 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 function Body() {
 	return (
-		<div>
+		<AppBody>
+			{" "}
 			<Router>
 				<LinkBody>
 					<Link to="/journal">Journal</Link>
 					<Link to="/finance">Finance</Link>
-					<Link to="/notes">Notes</Link>
-				</LinkBody>
-
-				<AppBody>
+					<Link to="/notes">Notes</Link>{" "}
 					<Route path="/journal">
 						<JournalWidget />
 					</Route>
@@ -25,9 +23,9 @@ function Body() {
 					<Route path="/notes">
 						<NotepadWidget />
 					</Route>
-				</AppBody>
+				</LinkBody>
 			</Router>
-		</div>
+		</AppBody>
 	);
 }
 
