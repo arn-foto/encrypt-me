@@ -1,4 +1,5 @@
 import React from "react";
+import AllocationPanel from "./AllocationPanel";
 import InfoPanel from "./InfoPanel";
 import PerformancePanel from "./PerformancePanel";
 import {
@@ -18,6 +19,7 @@ function FinanceWidget() {
 					</FinancePanelInfo>
 					<FinancePanelPoistion>
 						<PerformancePanel />
+						<AllocationPanel />
 					</FinancePanelPoistion>
 				</FinancePanels>
 			</FinanceContainer>
