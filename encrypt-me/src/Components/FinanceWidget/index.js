@@ -1,5 +1,6 @@
 import React from "react";
 import InfoPanel from "./InfoPanel";
+import PerformancePanel from "./PerformancePanel";
 import {
 	FinanceContainer,
 	FinancePanels,
@@ -15,7 +16,9 @@ function FinanceWidget() {
 					<FinancePanelInfo>
 						<InfoPanel />
 					</FinancePanelInfo>
-					<FinancePanelPoistion></FinancePanelPoistion>
+					<FinancePanelPoistion>
+						<PerformancePanel />
+					</FinancePanelPoistion>
 				</FinancePanels>
 			</FinanceContainer>
 		</div>
