@@ -14,16 +14,16 @@ function Body() {
 					<Link to="/journal">Journal</Link>
 					<Link to="/finance">Finance</Link>
 					<Link to="/notes">Notes</Link>{" "}
-					<Route path="/journal">
-						<JournalWidget />
-					</Route>
-					<Route path="/finance">
-						<FinanceWidget />
-					</Route>
-					<Route path="/notes">
-						<NotepadWidget />
-					</Route>
 				</LinkBody>
+				<Route path="/journal">
+					<JournalWidget />
+				</Route>
+				<Route path="/finance">
+					<FinanceWidget />
+				</Route>
+				<Route path="/notes">
+					<NotepadWidget />
+				</Route>
 			</Router>
 		</AppBody>
 	);

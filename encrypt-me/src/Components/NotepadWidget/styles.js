@@ -37,7 +37,7 @@ const BodyTextArea = styled.textarea`
 	display: flex;
 	flex-direction: column;
 	width: 400px;
-	height: 50vh;
+	height: 500px;
 	border: none;
 	background: lightgoldenrodyellow;
 	font-weight: bolder;
@@ -64,8 +64,8 @@ const Button = styled.div`
 const ListsDiv = styled.div`
 	display: flex;
 	flex-direction: column;
-	width: 50vh;
-	height: 65vh;
+	width: 25%;
+	height: 60%;
 	padding: 0.5em;
 `;
 

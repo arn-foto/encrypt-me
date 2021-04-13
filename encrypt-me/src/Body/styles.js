@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const AppBody = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 `;
 
 const LinkBody = styled.div`

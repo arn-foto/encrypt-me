@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const JournalContainer = styled.div`
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	background-color: lightseagreen;
 `;
 
