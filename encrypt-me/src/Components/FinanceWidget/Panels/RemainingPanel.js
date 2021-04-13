@@ -1,7 +1,7 @@
 import React from "react";
 
-const InfoPanel = () => {
+const RemainingPanel = () => {
 	return <div></div>;
 };
 
-export default InfoPanel;
+export default RemainingPanel;

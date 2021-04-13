@@ -1,7 +1,7 @@
 import React from "react";
 
-function PositionsPanel() {
+function ExpenseTotalPanel() {
 	return <div></div>;
 }
 
-export default PositionsPanel;
+export default ExpenseTotalPanel;

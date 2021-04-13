@@ -1,7 +1,7 @@
 import React from "react";
 
-const AllocationPanel = () => {
+const BudgetPanel = () => {
 	return <div></div>;
 };
 
-export default AllocationPanel;
+export default BudgetPanel;
