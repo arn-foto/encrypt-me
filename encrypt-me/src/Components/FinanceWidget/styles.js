@@ -7,20 +7,11 @@ const FinanceContainer = styled.div`
 	border: 1px solid black;
 `;
 
-const FinancePanels = styled.div`
-	display: grid;
-	grid-gap: 10px;
-	grid-template-columns: 225px auto auto;
-	grid-template-rows: auto auto;
-`;
+const FinancePanels = styled.div``;
 
-const FinancePanelInfo = styled.div`
-	grid-row: span 2;
-`;
+const FinancePanelInfo = styled.div``;
 
-const FinancePanelPoistion = styled.div`
-	grid-column: span 2;
-`;
+const FinancePanelPoistion = styled.div``;
 
 export {
 	FinanceContainer,

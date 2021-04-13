@@ -2,23 +2,23 @@ import styled from "styled-components";
 
 const AppBody = styled.div`
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 `;
 
 const LinkBody = styled.div`
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
 	position: absolute;
-	padding: 20px;
+	margin: 10px;
 
 	> a {
-		justify-content: space-evenly;
 		font-size: 2em;
 		color: black;
 		text-decoration: none;
 		border: 2px solid whitesmoke;
 		border-radius: 10px;
+		padding: 20px;
+		margin: 50px;
 		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 		:hover {
 			opacity: 0.9;

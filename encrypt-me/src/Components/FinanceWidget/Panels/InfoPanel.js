@@ -1,11 +1,7 @@
 import React from "react";
 
 const InfoPanel = () => {
-	return (
-		<div>
-			<h1>info panel</h1>
-		</div>
-	);
+	return <div></div>;
 };
 
 export default InfoPanel;

@@ -13,20 +13,7 @@ import {
 function FinanceWidget() {
 	return (
 		<div>
-			<FinanceContainer>
-				<FinancePanels>
-					<FinancePanelInfo>
-						<InfoPanel />
-					</FinancePanelInfo>
-
-					<FinancePanelPoistion>
-						{" "}
-						<PerformancePanel />
-						<AllocationPanel />
-						<PositionsPanel />
-					</FinancePanelPoistion>
-				</FinancePanels>
-			</FinanceContainer>
+			<FinanceContainer></FinanceContainer>
 		</div>
 	);
 }
