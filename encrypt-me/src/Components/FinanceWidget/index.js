@@ -13,6 +13,7 @@ import {
 function FinanceWidget() {
 	return (
 		<div>
+			<h2>Finances.</h2>
 			<FinanceContainer></FinanceContainer>
 		</div>
 	);

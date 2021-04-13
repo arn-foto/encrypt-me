@@ -9,6 +9,7 @@ const NotepadContainer = styled.div`
 	padding: 20px;
 	margin: 21px;
 	width: 150vh;
+	height: 100vh;
 `;
 
 // styles for AddNote.js
@@ -38,7 +39,7 @@ const BodyTextArea = styled.textarea`
 	display: flex;
 	flex-direction: column;
 	width: 400px;
-	height: 500px;
+	height: 450px;
 	border: none;
 	background: lightgoldenrodyellow;
 	font-weight: bolder;
@@ -99,7 +100,7 @@ const ListItemDetailDiv = styled.p`
 	font-size: 18px;
 	color: black;
 	margin: 3px;
-	max-height: 80px;
+	/* max-height: 80px; */
 	overflow: auto;
 `;
 
