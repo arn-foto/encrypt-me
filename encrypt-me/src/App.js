@@ -11,7 +11,6 @@ function App() {
 			<BodyContainer>
 				<Body />
 			</BodyContainer>
-
 			<Footer />
 		</div>
 	);
