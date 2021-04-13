@@ -67,7 +67,7 @@ const ListsDiv = styled.div`
 	display: flex;
 	flex-direction: column;
 	width: 25%;
-	height: 60%;
+	height: 25%;
 	padding: 0.5em;
 `;
 
@@ -76,7 +76,7 @@ const ListItemDiv = styled.div`
 	border-radius: 5px;
 	position: relative;
 	width: 100%;
-	height: 80%;
+	height: 50%;
 	padding: 0.5em;
 	font-size: 20px;
 	border-bottom: 1px solid black;
@@ -122,7 +122,6 @@ const ListItemDeleteButton = styled.button`
 `;
 
 const CalendarStyle = styled.div`
-	display: flex;
 	width: 300px;
 	background-color: #afe0cc;
 	border-radius: 2px;
