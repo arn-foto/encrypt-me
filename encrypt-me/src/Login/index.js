@@ -20,7 +20,6 @@ const Login = () => {
 				userAuth.user
 					.updateProfile({
 						displayName: name,
-						photoURL: profilePic,
 					})
 					.then(() => {
 						dispatch(
@@ -28,7 +27,6 @@ const Login = () => {
 								email: userAuth.user.email,
 								uid: userAuth.user.uid,
 								displayName: name,
-								photoUrl: profilePic,
 							})
 						);
 					});
@@ -82,7 +80,7 @@ const Login = () => {
 					</button>
 				</form>
 				<p>
-					Not a member?{" "}
+					Not registered?{" "}
 					<span className="login__register" onClick={register}>
 						Register Now
 					</span>
