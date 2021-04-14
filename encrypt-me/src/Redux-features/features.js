@@ -1,7 +1,22 @@
-import React from "react";
+import { createSlice } from "@reduxjs/toolkit";
 
-function features() {
-	return <div></div>;
-}
+export const userSlice = createSlice({
+	name: "user",
+	initialState: {
+		user: null,
+	},
+	reducers: {
+		login: (state, action) => {
+			state.selectedMail = action.payload;
+		},
+		logout: (state) => {
+			state.user = null;
+		},
+	},
+});
 
-export default features;
+export const { login, logout } = userSlice.actions;
+
+export const selectUser = (state) => state.user.user;
+
+export default userSlice.reducer;
