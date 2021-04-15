@@ -1,4 +1,5 @@
 import React from "react";
+import AddExpenseForm from "./ExpensePanels/AddExpenseForm";
 
 import { ExpenseContainer } from "./styles";
 
@@ -6,7 +7,9 @@ function FinanceWidget() {
 	return (
 		<div>
 			<h2>Expenses</h2>
-			<ExpenseContainer></ExpenseContainer>
+			<ExpenseContainer>
+				<AddExpenseForm />
+			</ExpenseContainer>
 		</div>
 	);
 }
