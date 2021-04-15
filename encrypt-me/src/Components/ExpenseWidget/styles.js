@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const FinanceContainer = styled.div`
+const ExpenseContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	background-color: whitesmoke;
@@ -12,4 +12,4 @@ const FinanceContainer = styled.div`
 	height: 100vh;
 `;
 
-export { FinanceContainer };
+export { ExpenseContainer };
