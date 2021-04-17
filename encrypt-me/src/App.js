@@ -2,9 +2,9 @@ import React from "react";
 import Header from "./Header";
 import Body from "./Body";
 import Footer from "./Footer";
-import { AppProvider } from "./context/AppContext";
+import { AppProvider } from "./Context/AppContext";
 
-function App() {
+const App = () => {
 	return (
 		<AppProvider>
 			{" "}
@@ -15,6 +15,6 @@ function App() {
 			</div>
 		</AppProvider>
 	);
-}
+};
 
 export default App;
