@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { TiDelete } from "react-icons/ti";
 import { AppContext } from "../../../Context/AppContext";
 
-const ExpenseItem = (props) => {
+function ExpenseItem(props) {
 	const { dispatch } = useContext(AppContext);
 
 	const handleDeleteExpense = () => {
@@ -21,6 +21,6 @@ const ExpenseItem = (props) => {
 			</div>
 		</li>
 	);
-};
+}
 
 export default ExpenseItem;
