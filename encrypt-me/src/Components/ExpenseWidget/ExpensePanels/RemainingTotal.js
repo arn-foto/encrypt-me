@@ -1,7 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
+import { AppContext } from "../../../Context/AppContext";
 
-const RemainingTotal = () => {
-	return <div>Remaining Total</div>;
+const RemainingBudget = () => {
+	const { expenses, budget } = useContext(AppContext);
+
+	const totalExpenses = expenses.reduce((total, item) => {
+		return (total += item.cost);
+	}, 0);
+
+	const alertType = totalExpenses > budget ? "alert-danger" : "alert-success";
+
+	return (
+		<div className={`${alertType}`}>
+			<span>Remaining: ${budget - totalExpenses}</span>
+		</div>
+	);
 };
 
-export default RemainingTotal;
+export default RemainingBudget;

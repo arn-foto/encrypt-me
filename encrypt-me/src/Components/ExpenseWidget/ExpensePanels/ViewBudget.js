@@ -1,7 +1,14 @@
 import React from "react";
 
-const ViewBudget = () => {
-	return <div>View Budget</div>;
+const ViewBudget = (props) => {
+	return (
+		<>
+			<span>Budget: ${props.budget}</span>
+			<button type="button" onClick={props.handleEditClick}>
+				Edit
+			</button>
+		</>
+	);
 };
 
 export default ViewBudget;
