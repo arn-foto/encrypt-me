@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 import ExpenseItem from "./ExpenseItem";
 import { AppContext } from "../../../Context/AppContext";
+import { ExpenseSearchStyle } from "../styles";
 
 const ExpenseList = () => {
 	const { expenses } = useContext(AppContext);
@@ -20,11 +21,15 @@ const ExpenseList = () => {
 
 	return (
 		<div>
-			<input
-				type="text"
-				placeholder="Type to search..."
-				onChange={handleChange}
-			/>
+			<ExpenseSearchStyle>
+				{" "}
+				<input
+					type="text"
+					placeholder="Search expense list"
+					onChange={handleChange}
+				/>
+			</ExpenseSearchStyle>
+
 			<ul>
 				{filteredExpenses.map((expense) => (
 					<ExpenseItem

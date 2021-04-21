@@ -30,9 +30,15 @@ const ExpenseListStyle = styled.div`
 	font-size: 1.5rem;
 `;
 
+const ExpenseSearchStyle = styled.div`
+	display: flex;
+	justify-content: center;
+`;
+
 export {
 	ExpenseContainer,
 	TopBudgetContainer,
 	AddExpenseStyle,
 	ExpenseListStyle,
+	ExpenseSearchStyle,
 };
