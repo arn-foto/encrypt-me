@@ -3,7 +3,13 @@ import styled from "styled-components";
 const ExpenseContainer = styled.div`
 	display: flex;
 	flex-direction: column;
-	background-color: whitesmoke;
 `;
 
-export { ExpenseContainer };
+const TopBudgetContainer = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px;
+`;
+
+export { ExpenseContainer, TopBudgetContainer };

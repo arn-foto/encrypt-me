@@ -6,19 +6,23 @@ import ExpenseTotal from "./ExpensePanels/ExpenseTotal";
 import RemainingBudget from "./ExpensePanels/RemainingTotal";
 
 import { GlobalContainer } from "../../Global-style/styles";
-import { ExpenseContainer } from "./styles";
+import { ExpenseContainer, TopBudgetContainer } from "./styles";
 
 function FinanceWidget() {
 	return (
 		<div>
 			<h2>Expenses</h2>
 			<GlobalContainer>
-				<ExpenseContainer>
+				<TopBudgetContainer>
 					{" "}
-					<AddExpenseForm />
 					<Budget />
 					<RemainingBudget />
 					<ExpenseTotal />
+				</TopBudgetContainer>
+
+				<ExpenseContainer>
+					{" "}
+					<AddExpenseForm />
 					<ExpenseList />
 				</ExpenseContainer>
 			</GlobalContainer>
