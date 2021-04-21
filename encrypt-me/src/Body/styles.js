@@ -14,7 +14,7 @@ const LinkBody = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	background-color: whitesmoke;
+	/* background-color: whitesmoke; */
 
 	> a {
 		font-size: 2em;
@@ -24,8 +24,7 @@ const LinkBody = styled.div`
 		padding: 20px;
 		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 		:hover {
-			opacity: 0.9;
-			background-color: white;
+			backdrop-filter: blur(2px);
 			cursor: pointer;
 		}
 	}

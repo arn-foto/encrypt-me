@@ -4,9 +4,12 @@ import Budget from "./ExpensePanels/Budget";
 import ExpenseList from "./ExpensePanels/ExpenseList";
 import ExpenseTotal from "./ExpensePanels/ExpenseTotal";
 import RemainingBudget from "./ExpensePanels/RemainingTotal";
-
 import { GlobalContainer } from "../../Global-style/styles";
-import { ExpenseContainer, TopBudgetContainer } from "./styles";
+import {
+	AddExpenseStyle,
+	ExpenseContainer,
+	TopBudgetContainer,
+} from "./styles";
 
 function FinanceWidget() {
 	return (
@@ -14,13 +17,14 @@ function FinanceWidget() {
 			<h2>Expenses</h2>
 			<GlobalContainer>
 				<TopBudgetContainer>
-					<Budget />
 					<RemainingBudget />
 					<ExpenseTotal />
+					<Budget />
 				</TopBudgetContainer>
 
 				<ExpenseContainer>
 					<AddExpenseForm />
+
 					<ExpenseList />
 				</ExpenseContainer>
 			</GlobalContainer>

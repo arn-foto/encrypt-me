@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { AppContext } from "../../../Context/AppContext";
 import { v4 as uuidv4 } from "uuid";
+import { AddExpenseStyle } from "../styles";
 
 const AddExpenseForm = (props) => {
 	const { dispatch } = useContext(AppContext);
@@ -27,7 +28,7 @@ const AddExpenseForm = (props) => {
 
 	return (
 		<form onSubmit={onSubmit}>
-			<div>
+			<AddExpenseStyle>
 				<div>
 					<label for="name">Name...</label>
 					<input
@@ -48,12 +49,8 @@ const AddExpenseForm = (props) => {
 						onChange={(event) => setCost(event.target.value)}
 					/>
 				</div>
-			</div>
-			<div>
-				<div>
-					<button type="submit">Save</button>
-				</div>
-			</div>
+				<button type="submit">Save</button>
+			</AddExpenseStyle>
 		</form>
 	);
 };

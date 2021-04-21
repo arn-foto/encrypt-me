@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const ExpenseContainer = styled.div`
 	display: flex;
+	justify-content: space-evenly;
 	flex-direction: column;
 `;
 
@@ -10,6 +11,15 @@ const TopBudgetContainer = styled.div`
 	flex-direction: row;
 	justify-content: space-evenly;
 	padding: 20px;
+	font-size: 2em;
 `;
 
-export { ExpenseContainer, TopBudgetContainer };
+const AddExpenseStyle = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding: 20px;
+	margin: 20px;
+`;
+
+export { ExpenseContainer, TopBudgetContainer, AddExpenseStyle };
