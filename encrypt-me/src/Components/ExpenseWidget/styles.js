@@ -10,7 +10,7 @@ const TopBudgetContainer = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	padding: 20px;
+	padding: 40px;
 	font-size: 2em;
 `;
 
@@ -26,6 +26,7 @@ const ExpenseListStyle = styled.div`
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	padding: 10px;
 `;
 
 export {

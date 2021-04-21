@@ -19,7 +19,7 @@ const ExpenseList = () => {
 	};
 
 	return (
-		<>
+		<div>
 			<input
 				type="text"
 				placeholder="Type to search..."
@@ -34,7 +34,7 @@ const ExpenseList = () => {
 					/>
 				))}
 			</ul>
-		</>
+		</div>
 	);
 };
 
