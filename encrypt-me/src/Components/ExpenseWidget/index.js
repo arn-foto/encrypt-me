@@ -14,14 +14,12 @@ function FinanceWidget() {
 			<h2>Expenses</h2>
 			<GlobalContainer>
 				<TopBudgetContainer>
-					{" "}
 					<Budget />
 					<RemainingBudget />
 					<ExpenseTotal />
 				</TopBudgetContainer>
 
 				<ExpenseContainer>
-					{" "}
 					<AddExpenseForm />
 					<ExpenseList />
 				</ExpenseContainer>
