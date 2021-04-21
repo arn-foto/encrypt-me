@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { TiDelete } from "react-icons/ti";
 import { AppContext } from "../../../Context/AppContext";
+import { ExpenseListStyle } from "../styles";
 
 function ExpenseItem(props) {
 	const { dispatch } = useContext(AppContext);
@@ -13,13 +14,10 @@ function ExpenseItem(props) {
 	};
 
 	return (
-		<li>
-			{props.name}
-			<div>
-				<span>${props.cost}</span>
-				<TiDelete size="1.5em" onClick={handleDeleteExpense} />
-			</div>
-		</li>
+		<ExpenseListStyle>
+			<div>${props.cost}</div> {props.name}
+			<TiDelete size="1.5em" onClick={handleDeleteExpense} />
+		</ExpenseListStyle>
 	);
 }
 

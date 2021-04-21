@@ -22,4 +22,15 @@ const AddExpenseStyle = styled.div`
 	margin: 20px;
 `;
 
-export { ExpenseContainer, TopBudgetContainer, AddExpenseStyle };
+const ExpenseListStyle = styled.div`
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+`;
+
+export {
+	ExpenseContainer,
+	TopBudgetContainer,
+	AddExpenseStyle,
+	ExpenseListStyle,
+};
