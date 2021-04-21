@@ -27,6 +27,7 @@ const ExpenseListStyle = styled.div`
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 10px;
+	font-size: 1.5rem;
 `;
 
 export {
