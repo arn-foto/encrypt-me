@@ -1,7 +1,8 @@
 import React from "react";
 import AddNote from "../NotepadWidget/AddNote";
 import NoteList from "../NotepadWidget/NoteList";
-import { NotepadContainer, CalendarStyle } from "./styles";
+import { CalendarStyle } from "./styles";
+import { GlobalContainer } from "../../Global-style/styles";
 import { Calendar } from "antd";
 import "antd/dist/antd.css";
 
@@ -14,13 +15,13 @@ function NotepadWidget() {
 		<div>
 			{" "}
 			<h2>Notepad</h2>
-			<NotepadContainer>
+			<GlobalContainer>
 				<CalendarStyle>
 					<Calendar fullscreen={false} onPanelChange={onPanelChange} />{" "}
 				</CalendarStyle>
 				<AddNote />
 				<NoteList />
-			</NotepadContainer>
+			</GlobalContainer>
 		</div>
 	);
 }
