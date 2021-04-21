@@ -48,8 +48,8 @@ const AddExpenseForm = (props) => {
 						value={cost}
 						onChange={(event) => setCost(event.target.value)}
 					/>
+					<button type="submit">Save</button>
 				</div>
-				<button type="submit">Save</button>
 			</AddExpenseStyle>
 		</form>
 	);
