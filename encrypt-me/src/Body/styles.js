@@ -24,7 +24,8 @@ const LinkBody = styled.div`
 		padding: 20px;
 		box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 		:hover {
-			backdrop-filter: blur(2px);
+			background-color: rgba(255, 255, 255, 0.15);
+			backdrop-filter: blur(5px);
 			cursor: pointer;
 		}
 	}

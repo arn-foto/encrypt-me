@@ -5,7 +5,7 @@ import { JournalContainer } from "./styles";
 function JournalWidget() {
 	return (
 		<div>
-			<h2>Journal.</h2>
+			<h2>Journal</h2>
 			<GlobalContainer>
 				<JournalContainer>
 					{" "}
