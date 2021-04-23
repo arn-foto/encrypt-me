@@ -3,6 +3,7 @@ import styled from "styled-components";
 const NotepadContainer = styled.div`
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
 `;
 
 // styles for AddNote.js
@@ -99,7 +100,7 @@ const ListItemDetailDiv = styled.p`
 
 const ListItemDeleteButton = styled.button`
 	border-radius: 5px;
-	background: #b8e3c9;
+	background: cyan;
 	color: white;
 	position: absolute;
 	width: 15px;
@@ -116,7 +117,6 @@ const ListItemDeleteButton = styled.button`
 
 const CalendarStyle = styled.div`
 	width: 300px;
-
 	border-radius: 2px;
 	opacity: 0.9;
 	padding: 10px;
