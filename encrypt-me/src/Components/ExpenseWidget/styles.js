@@ -28,6 +28,7 @@ const ExpenseListStyle = styled.div`
 	justify-content: space-between;
 	padding: 10px;
 	font-size: 1.5rem;
+	font-weight: bold;
 `;
 
 const ExpenseSearchStyle = styled.div`

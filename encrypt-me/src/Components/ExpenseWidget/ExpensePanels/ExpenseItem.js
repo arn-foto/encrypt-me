@@ -15,7 +15,8 @@ function ExpenseItem(props) {
 
 	return (
 		<ExpenseListStyle>
-			<div>${props.cost}</div> {props.name}
+			<div>${props.cost}</div>
+			{props.name}
 			<TiDelete size="1.5em" onClick={handleDeleteExpense} />
 		</ExpenseListStyle>
 	);

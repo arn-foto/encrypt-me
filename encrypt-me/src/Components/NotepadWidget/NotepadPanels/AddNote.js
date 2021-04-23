@@ -1,6 +1,6 @@
-import firebase from "../../firebase";
+import firebase from "../../../firebase";
 import React, { useState } from "react";
-import { Button, BodyTextArea, InputTitle, AddNoteDiv } from "./styles";
+import { Button, BodyTextArea, InputTitle, AddNoteDiv } from "../styles";
 
 const AddNote = () => {
 	const [title, setTitle] = useState("");

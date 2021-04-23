@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
-import firebase from "../../firebase";
+import firebase from "../../../../firebase";
 import {
 	ListsDiv,
 	ListItemDiv,
 	ListTitleDiv,
 	ListItemDetailDiv,
 	ListItemDeleteButton,
-} from "./styles";
+} from "../styles";
 
 function useLists() {
 	const [lists, setLists] = useState([]);

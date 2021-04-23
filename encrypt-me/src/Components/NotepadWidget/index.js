@@ -1,6 +1,6 @@
 import React from "react";
-import AddNote from "../NotepadWidget/AddNote";
-import NoteList from "../NotepadWidget/NoteList";
+import AddNote from "../NotepadWidget/NotepadPanels/AddNote";
+import NoteList from "../NotepadWidget/NotepadPanels/NoteList";
 import { CalendarStyle } from "./styles";
 import { GlobalContainer } from "../../Global-style/styles";
 import { Calendar } from "antd";
