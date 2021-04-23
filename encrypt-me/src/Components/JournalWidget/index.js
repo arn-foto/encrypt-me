@@ -1,5 +1,6 @@
 import React from "react";
 import { GlobalContainer } from "../../Global-style/styles";
+import { JournalContainer } from "./styles";
 
 function JournalWidget() {
 	return (
@@ -7,8 +8,11 @@ function JournalWidget() {
 			<h2>Journal.</h2>
 			<GlobalContainer>
 				<h1>Journal Widget.</h1>
-				<input placeholder="Title" />
-				<textarea placeholder="New entry" />
+				<JournalContainer>
+					{" "}
+					<input placeholder="Title" />
+					<textarea placeholder="New entry" />
+				</JournalContainer>
 			</GlobalContainer>
 		</div>
 	);
