@@ -7,7 +7,6 @@ function JournalWidget() {
 		<div>
 			<h2>Journal.</h2>
 			<GlobalContainer>
-				<h1>Journal Widget.</h1>
 				<JournalContainer>
 					{" "}
 					<input placeholder="Title" />
