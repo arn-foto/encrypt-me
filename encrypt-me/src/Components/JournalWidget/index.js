@@ -8,7 +8,6 @@ function JournalWidget() {
 			<h2>Journal</h2>
 			<GlobalContainer>
 				<JournalContainer>
-					{" "}
 					<input placeholder="Title" />
 					<textarea placeholder="New entry" />
 				</JournalContainer>
