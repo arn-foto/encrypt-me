@@ -42,12 +42,11 @@ const BodyTextArea = styled.textarea`
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 `;
 
-const Button = styled.div`
+const NoteButtonStyle = styled.div`
 	font-size: 1em;
 	padding: 10px;
 	cursor: pointer;
 	border-radius: 3px;
-	border: 1px solid black;
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 
 	:hover {
@@ -125,7 +124,7 @@ const CalendarStyle = styled.div`
 
 export {
 	NotepadContainer,
-	Button,
+	NoteButtonStyle,
 	BodyTextArea,
 	ListsDiv,
 	InputTitle,

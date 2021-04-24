@@ -2,12 +2,12 @@ import React from "react";
 
 const ViewBudget = (props) => {
 	return (
-		<>
+		<div>
 			<span>Budget: ${props.budget}</span>
 			<button type="button" onClick={props.handleEditClick}>
 				Edit
 			</button>
-		</>
+		</div>
 	);
 };
 

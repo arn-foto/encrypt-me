@@ -1,6 +1,11 @@
 import firebase from "../../../firebase";
 import React, { useState } from "react";
-import { Button, BodyTextArea, InputTitle, AddNoteDiv } from "../styles";
+import {
+	NoteButtonStyle,
+	BodyTextArea,
+	InputTitle,
+	AddNoteDiv,
+} from "../styles";
 
 const AddNote = () => {
 	const [title, setTitle] = useState("");
@@ -30,7 +35,7 @@ const AddNote = () => {
 					value={body}
 					onChange={(e) => setBody(e.target.value)}
 				/>
-				<Button onClick={addNote}>Add Note</Button>
+				<NoteButtonStyle onClick={addNote}>Add Note</NoteButtonStyle>
 			</AddNoteDiv>
 		</div>
 	);

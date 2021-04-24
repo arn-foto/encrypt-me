@@ -2,6 +2,7 @@ import React, { useContext, useState } from "react";
 import { AppContext } from "../../../Context/AppContext";
 import { v4 as uuidv4 } from "uuid";
 import { AddExpenseStyle } from "../styles";
+import { GlobalButtonStyle } from "../../../Global-style/styles";
 
 const AddExpenseForm = (props) => {
 	const { dispatch } = useContext(AppContext);
@@ -48,7 +49,7 @@ const AddExpenseForm = (props) => {
 						value={cost}
 						onChange={(event) => setCost(event.target.value)}
 					/>
-					<button type="submit">Save</button>
+					<GlobalButtonStyle type="submit">Add</GlobalButtonStyle>
 				</div>
 			</AddExpenseStyle>
 		</form>

@@ -14,4 +14,5 @@ const GlobalContainer = styled.div`
 	height: 100vh;
 `;
 
-export { GlobalContainer };
+const GlobalButtonStyle = styled.button``;
+export { GlobalContainer, GlobalButtonStyle };
