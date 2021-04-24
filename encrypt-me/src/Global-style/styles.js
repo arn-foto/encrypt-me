@@ -10,7 +10,7 @@ const GlobalContainer = styled.div`
 	box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
 	padding: 20px;
 	margin: 20px;
-	width: 175vh;
+	width: 160vh;
 	height: 100vh;
 `;
 
