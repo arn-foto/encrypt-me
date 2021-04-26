@@ -33,14 +33,19 @@ const ExpenseListStyle = styled.div`
 const ExpenseSearchStyle = styled.div`
 	display: flex;
 	justify-content: center;
+	width: 100%;
 `;
 
-const TiDelete = styled.div`
-	color: red;
+const DeleteStyle = styled.div`
+	:hover {
+		opacity: 0.9;
+		background-color: rgba(255, 255, 255, 0.15);
+		backdrop-filter: blur(5px);
+	}
 `;
 
 export {
-	TiDelete,
+	DeleteStyle,
 	ExpenseContainer,
 	TopBudgetContainer,
 	AddExpenseStyle,

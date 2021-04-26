@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from "react";
 import { TiDelete } from "react-icons/ti";
 // import { AppContext } from "../../../Context/AppContext";
-import { ExpenseListStyle } from "../styles";
+import { ExpenseListStyle, DeleteStyle } from "../styles";
 import firebase from "../../../firebase";
 
 function ExpenseItem() {
@@ -46,10 +46,12 @@ const ExpenseLine = () => {
 						{" "}
 						<div>${expenseList.cost}</div>
 						{expenseList.name}
-						<TiDelete
-							size="1.5em"
-							onClick={() => handleOnDelete(expenseList.id)}
-						/>
+						<DeleteStyle>
+							<TiDelete
+								size="1.5em"
+								onClick={() => handleOnDelete(expenseList.id)}
+							/>
+						</DeleteStyle>
 					</ExpenseListStyle>
 				);
 			})}
