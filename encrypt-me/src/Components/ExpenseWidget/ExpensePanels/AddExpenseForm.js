@@ -3,24 +3,29 @@ import { AppContext } from "../../../Context/AppContext";
 import { v4 as uuidv4 } from "uuid";
 import { AddExpenseStyle } from "../styles";
 import { GlobalButtonStyle } from "../../../Global-style/styles";
-
+import firebase from "../../../firebase";
 const AddExpenseForm = (props) => {
-	const { dispatch } = useContext(AppContext);
+	// const { dispatch } = useContext(AppContext);
 
 	const [name, setName] = useState("");
 	const [cost, setCost] = useState("");
 
-	const onSubmit = (event) => {
-		event.preventDefault();
-		const expense = {
+	const onSubmit = (e) => {
+		// e.preventDefault();
+		// const expense = {
+		// 	id: uuidv4(),
+		// 	name,
+		// 	cost: parseInt(cost),
+		// };
+
+		// dispatch({
+		// 	type: "ADD_EXPENSE",
+		// 	payload: expense,
+		// });
+		firebase.firestore().collection("expenses").add({
 			id: uuidv4(),
 			name,
-			cost: parseInt(cost),
-		};
-
-		dispatch({
-			type: "ADD_EXPENSE",
-			payload: expense,
+			cost,
 		});
 
 		setName("");
