@@ -23,7 +23,7 @@ const AddExpenseForm = (props) => {
 		// 	payload: expense,
 		// });
 		firebase.firestore().collection("expenses").add({
-			id: uuidv4(),
+			// id: uuidv4(),
 			name,
 			cost,
 		});
