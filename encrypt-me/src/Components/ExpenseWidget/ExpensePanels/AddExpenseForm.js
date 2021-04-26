@@ -11,7 +11,7 @@ const AddExpenseForm = (props) => {
 	const [cost, setCost] = useState("");
 
 	const onSubmit = (e) => {
-		// e.preventDefault();
+		e.preventDefault();
 		// const expense = {
 		// 	id: uuidv4(),
 		// 	name,
