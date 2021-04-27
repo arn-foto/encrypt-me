@@ -35,7 +35,12 @@ const ExpenseSearchStyle = styled.div`
 	justify-content: center;
 `;
 
+const TiDelete = styled.div`
+	color: red;
+`;
+
 export {
+	TiDelete,
 	ExpenseContainer,
 	TopBudgetContainer,
 	AddExpenseStyle,
