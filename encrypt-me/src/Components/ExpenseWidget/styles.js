@@ -24,7 +24,6 @@ const AddExpenseStyle = styled.div`
 
 const ExpenseListStyle = styled.div`
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
 	padding: 10px;
 	font-size: 1.5rem;

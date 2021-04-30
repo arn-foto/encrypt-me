@@ -34,6 +34,7 @@ const AddNote = () => {
 				/>
 				<BodyTextArea
 					placeholder="+  Note  +"
+					required="required"
 					value={body}
 					onChange={(e) => setBody(e.target.value)}
 				/>

@@ -39,10 +39,10 @@ const ExpenseLine = () => {
 	};
 
 	return (
-		<ExpenseListStyle>
+		<div>
 			{expenseList.map((expenseList) => {
 				return (
-					<div>
+					<ExpenseListStyle>
 						{" "}
 						<div>${expenseList.cost}</div>
 						{expenseList.name}
@@ -50,10 +50,10 @@ const ExpenseLine = () => {
 							size="1.5em"
 							onClick={() => handleOnDelete(expenseList.id)}
 						/>
-					</div>
+					</ExpenseListStyle>
 				);
 			})}
-		</ExpenseListStyle>
+		</div>
 	);
 };
 
