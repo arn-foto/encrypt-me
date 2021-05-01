@@ -28,6 +28,7 @@ const AddNote = () => {
 				{" "}
 				<InputTitle
 					placeholder="+ Title  +"
+					required="required"
 					value={title}
 					onChange={(e) => setTitle(e.target.value)}
 				/>
